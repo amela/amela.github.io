@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to install Android on Tinkerbord from macOS"
-date:   2020-03-21 18:00:00 +0100
+date:   2020-03-21 17:00:00 +0100
 categories: Tinkerboard macOS Android GooglePlay Mediacenter
 ---
 Here are the instructions on how to install Android and Google play on Tinkerboard. With this setup I created mini Media center. For this project you will need:
