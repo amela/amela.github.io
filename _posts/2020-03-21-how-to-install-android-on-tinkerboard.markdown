@@ -20,7 +20,9 @@ Here are the instructions on how to install Android and Google play on Tinkerboa
 3. Open disk utility and format sd card as FAT 32
 4. Remember Device (in my case it was disk2s1, but we only need to know that it’s disk2)
 5. Unmount the card via Disk Utility
-6. Flash the image card: <pre>sudo dd if=/Users/amela/Downloads/20191227-tinker-board-android-nougat-userdebug-v14.4.0.5.img of=/dev/rdisk2 bs=1m</pre> 
+6. Flash the image card: 
+        
+        sudo dd if=/Users/amela/Downloads/20191227-tinker-board-android-nougat-userdebug-v14.4.0.5.img of=/dev/rdisk2 bs=1m
 It took about 2 minutes to complete the dd command
 7. Plug sd card into Tinker Board and gooo :)
 
@@ -33,7 +35,7 @@ It took about 2 minutes to complete the dd command
 3. On my system (macOS Catalina 10.15.1), adb command could not be used. I managed to fix this running: 
 
         cd /usr/local/Caskroom/android-platform-tools/29.0.6/platform-tools/ && open .
-   Then right-click on adb, select *Open*. This time, you can click *Open* instead of *Move to Bin*. To test if adb now works run:
+Then right-click on adb, select *Open*. This time, you can click *Open* instead of *Move to Bin*. To test if adb now works run:
    
    	     adb devices
 3. Download [Google Play Services][play-services], [Google Services Framework][play-gsf], and [Google Play Store][play-store] apks
