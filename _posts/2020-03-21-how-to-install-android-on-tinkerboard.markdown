@@ -35,11 +35,11 @@ It took about 2 minutes to complete the dd command
 3. On my system (macOS Catalina 10.15.1), adb command could not be used. I managed to fix this running: 
 
         cd /usr/local/Caskroom/android-platform-tools/29.0.6/platform-tools/ && open .
-Then right-click on adb, select *Open*. This time, you can click *Open* instead of *Move to Bin*. To test if adb now works run:
+4. Then right-click on adb, select *Open*. This time, you can click *Open* instead of *Move to Bin*. To test if adb now works run:
    
    	     adb devices
-4. Download [Google Play Services][play-services], [Google Services Framework][play-gsf], and [Google Play Store][play-store] apks
-5. Rename apks into playservices.apk, gsf.apk and playstore.apk
+5. Download [Google Play Services][play-services], [Google Services Framework][play-gsf], and [Google Play Store][play-store] apks
+6. Rename apks into playservices.apk, gsf.apk and playstore.apk
 
         adb connect 192.168.1.133
         adb root
@@ -50,13 +50,13 @@ Then right-click on adb, select *Open*. This time, you can click *Open* instead 
         adb push playservices.apk /system/priv-app/
         adb push gsf.apk /system/priv-app/
         adb push playstore.apk /system/priv-app/
-5. Reboot the Tinker Board
-6. On my system, Google Play Services kept shutting down. An update of Google Play services fixes the problem.
+7. Reboot the Tinker Board
+8. On my system, Google Play Services kept shutting down. An update of Google Play services fixes the problem.
 
         connect 192.168.1.133
         root
         install -r playservices.apk
-7. Now you should be able to install apps you like.
+9. Now you should be able to install apps you like.
 
 ## Credits
 Check out [ossblog][flashing-instrucion] for more info on how to flash sd card and [x10.dev][google-play-instructions] on how to install GooglePlay. 
