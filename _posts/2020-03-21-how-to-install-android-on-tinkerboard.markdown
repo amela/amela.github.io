@@ -20,10 +20,9 @@ Here are the instructions on how to install Android and Google play on Tinkerboa
 3. Open disk utility and format sd card as FAT 32
 4. Remember Device (in my case it was disk2s1, but we only need to know that it’s disk2)
 5. Unmount the card via Disk Utility
-6. Flash the image card: 
+6. Flash the image card with following command -- it took about 2 minutes to complete. 
         
         sudo dd if=/Users/amela/Downloads/20191227-tinker-board-android-nougat-userdebug-v14.4.0.5.img of=/dev/rdisk2 bs=1m
-It took about 2 minutes to complete the dd command
 7. Plug sd card into Tinker Board and gooo :)
 
 ## Installing Google Play on Android
