@@ -38,8 +38,8 @@ It took about 2 minutes to complete the dd command
 Then right-click on adb, select *Open*. This time, you can click *Open* instead of *Move to Bin*. To test if adb now works run:
    
    	     adb devices
-3. Download [Google Play Services][play-services], [Google Services Framework][play-gsf], and [Google Play Store][play-store] apks
-4. Rename apks into playservices.apk, gsf.apk and playstore.apk
+4. Download [Google Play Services][play-services], [Google Services Framework][play-gsf], and [Google Play Store][play-store] apks
+5. Rename apks into playservices.apk, gsf.apk and playstore.apk
 
         adb connect 192.168.1.133
         adb root
