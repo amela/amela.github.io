@@ -37,7 +37,7 @@ It took about 2 minutes to complete the dd command
         cd /usr/local/Caskroom/android-platform-tools/29.0.6/platform-tools/ && open .
 4. Then right-click on adb, select *Open*. This time, you can click *Open* instead of *Move to Bin*. To test if adb now works run:
    
-   	     adb devices
+        adb devices
 5. Download [Google Play Services][play-services], [Google Services Framework][play-gsf], and [Google Play Store][play-store] apks
 6. Rename apks into playservices.apk, gsf.apk and playstore.apk
 
