@@ -1,4 +1,4 @@
-title: Pineapples
+title: amela
 author: amela
 email: amela@ena.one
 description: > # this means to ignore newlines until "show_exerpts:"
@@ -13,15 +13,15 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Amela
-  tagline: Developer. Designer
+  tagline: Civilized Being
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
+    # twitter: thelehhman
     github:  amela
-    linkedIn: in/thelehhman
+    # linkedIn: in/thelehhman
     # rss: rss
     # dribbble: jekyll
     # facebook: jekyll
