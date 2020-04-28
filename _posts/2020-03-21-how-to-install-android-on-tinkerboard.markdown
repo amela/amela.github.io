@@ -4,13 +4,13 @@ title:  "How to install Android on Tinkerbord from macOS"
 date:   2020-03-21 17:00:00 +0100
 categories: Tinkerboard macOS Android GooglePlay Mediacenter
 ---
-Here are the instructions on how to install Android and Google play on Tinkerboard. With this setup I created mini Media center. For this project you will need:
+Looking how to make budget friendly Media Center for watching video content or listening music? Then you’ve come to the right place. Here is everything you need to know about installing Android and GooglePlay on Tinkerboard with macOS. For this project you will need:
 
 * Tinkerboard
-* Compatible power supply (the one for charging the phone was not enough for me)
-* Micro sd card (I used 128GB one)
+* Compatible power supply
+* Micro SD card (I used 128GB one)
 * Peripherals (keyboard, mouse)
-* macbook (with macOS), sd card adapter
+* Macbook (with macOS), SD card adapter
 
 ## Flashing Android on micro sd card
 
